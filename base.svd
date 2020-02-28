@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<device schemaVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="CMSIS-SVD.xsd">
+	<vendor>BLANK</vendor>
+	<vendorID>BLANK:BLANK</vendorID>
+	<name>BLANK</name>
+	<version>1.0</version>
+	<series>BLANK Series</series>
+	<addressUnitBits>8</addressUnitBits>
+	<width>32</width>
+	<size>32</size>
+	<description>BLANK Description</description>
+	<licenseText>
+    ----------------------------------------------------------------------------
+    No idea, anyone go at it, use at your own risk
+    ----------------------------------------------------------------------------
+	</licenseText>
+	<cpu>
+		<name>CM0+</name>
+		<revision>r2p1</revision>
+		<endian>little</endian>
+		<mpuPresent>False</mpuPresent>
+		<fpuPresent>False</fpuPresent>
+		<fpuDP>False</fpuDP>
+		<nvicPrioBits>3</nvicPrioBits>
+		<vendorSystickConfig>False</vendorSystickConfig>
+	</cpu>
+	<peripherals>
+		<peripheral>
+			<name></name>
+			<baseAddress></baseAddress>
+			<description></description>
+			<addressBlock>
+				<offset></offset>
+				<size></size>
+				<usage>registers</usage>
+			</addressBlock>
+			<registers>
+				<register>
+					<name></name>
+					<description></description>
+					<addressOffset></addressOffset>
+					<size></size>
+					<resetValue></resetValue>
+					<resetMask></resetMask>
+					<fields>
+						<field>
+							<name></name>
+							<bitRange></bitRange>
+							<description></description>
+							<access></access>
+						</field>
+					</fields>
+					<access></access>
+				</register>
+			</registers>
+		</peripheral>
+	</peripherals>
+</device>
